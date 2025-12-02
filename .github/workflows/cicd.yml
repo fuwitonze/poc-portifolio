@@ -21,7 +21,7 @@ env:
   ECS_SERVICE: demo-service
   CONTAINER_NAME: nginx
   
-jobs: # Continous Integration  job 
+jobs: # Continous Integration  jobs
     Build:
         runs-on: ubuntu-latest
         steps:
